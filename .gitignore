@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Data and trained artifacts
+data/*.csv
+data/*.tsv
+data/*.xlsx
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
