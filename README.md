@@ -249,6 +249,4 @@ The original training code is a useful prototype, but this version addresses sev
 6. Consider mixed precision and gradient accumulation if GPU memory is limited.
 7. Add CI (GitHub Actions) and a Streamlit/FastAPI demo after the core pipeline is stable.
 
-## License
-
-Add a license file if you intend to publish or accept contributions. Confirm that all datasets and pretrained model assets permit your intended use.
+## MIT License
